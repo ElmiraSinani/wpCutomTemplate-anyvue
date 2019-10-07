@@ -1,0 +1,107 @@
+/*   
+Theme Name: Anyvue
+Theme URI: http://anyvue.co/
+Description: Anyvue on Any Screen -- WordPress v3.9.1
+Author: Anyvue
+Version: 1
+*/
+
+div.wpcf7-validation-errors{
+    clear: both;
+    border: 1px solid #f00 !important;
+    padding: 7px !important;    
+    color: #999 !important;
+    font-size: 0.8em !important;
+}
+.form .submit-block{
+    padding-bottom: 15px;
+}
+span.wpcf7-not-valid-tip{
+    font-size: 0.7em !important;
+    margin-top: 2px;
+}
+.page-content{
+    position: relative;
+}
+.quickEdit{
+    position: absolute;
+    color: #fff;
+    background: #f00;
+    right: 0;
+    padding: 10px 20px;
+	z-index: 10000;
+}
+#contact-us{
+    margin-top: 30px;
+}
+.single_post{
+    margin: 30px 0;
+    min-height: 350px;
+}
+.post-edit-link{
+    display: inline-block;
+    margin-top: 30px;
+}
+.post_content{
+    margin: 15px 0;
+}
+#launch{
+    position: relative;
+}
+#launch video{
+/*    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);*/
+}
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+}
+.bg-lanch{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background: #2b2b2b;
+    opacity: 0.7;
+    
+}
+#launch .inner,
+#signage .inner,
+#social .inner{
+    position: relative;
+    z-index: 3;
+}
+
+
+#header .navbar {
+    padding-top: 14px !important;
+    padding-bottom: 12px !important;
+    min-height: inherit !important;
+}
+#header #menu-top-menu{
+    padding-top: 18px !important;
+}
+
+#wpap_style2_view_body{
+    padding-bottom: 100px;
+}
+#wp_aff_inside .row:first-of-type{
+    position: absolute;
+    bottom: 50px;
+}
+#wp_aff_inside .row a{
+    background: #18A4D7;
+    color: #fff;
+}
+#wp_aff_inside .row a:hover{
+    background: #44C1F0;
+}
